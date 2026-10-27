@@ -12,7 +12,7 @@ so you can get to the analysis.
 ## Install
 
 ```bash
-pip install git+https://github.com/kelv-commits/datatidy.git
+pip install kelvtidy
 ```
 
 ## Use in Python
