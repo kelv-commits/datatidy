@@ -1,4 +1,4 @@
-# datatidy
+# kelvtidy
 ![tests](https://github.com/kelv-commits/datatidy/actions/workflows/tests.yml/badge.svg)
 
 Quick, dependable cleaning for messy CSV and Excel data, in one line of Python or one command.
@@ -6,7 +6,7 @@ Quick, dependable cleaning for messy CSV and Excel data, in one line of Python o
 ## Why
 
 Real-world spreadsheets are full of inconsistent column names, stray spaces, duplicate rows,
-mixed date formats, and currency strings like `$1,200.50` or `(45.10)`. `datatidy` fixes these
+mixed date formats, and currency strings like `$1,200.50` or `(45.10)`. `kelvtidy` fixes these
 so you can get to the analysis.
 
 ## Install
@@ -19,7 +19,7 @@ pip install git+https://github.com/kelv-commits/datatidy.git
 
 ```python
 import pandas as pd
-from datatidy import clean
+from kelvtidy import clean
 
 df = pd.read_csv("sales.csv")
 tidy = clean(df, date_columns=["order_date"], currency_columns=["amount"])
@@ -41,7 +41,7 @@ After:
 ## Use from the command line
 
 ```bash
-datatidy sales.csv -o cleaned.csv --dates order_date --currency amount
+kelvtidy sales.csv -o cleaned.csv --dates order_date --currency amount
 ```
 
 ## What it does
