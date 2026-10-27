@@ -2,7 +2,7 @@ import math
 
 import pandas as pd
 
-from datatidy import (
+from kelvtidy import (
     clean,
     clean_columns,
     clean_currency,
