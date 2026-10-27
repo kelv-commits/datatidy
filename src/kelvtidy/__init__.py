@@ -1,4 +1,4 @@
-"""datatidy: quick, dependable cleaning for messy CSV/Excel data."""
+"""kelvtidy: quick, dependable cleaning for messy CSV/Excel data."""
 
 from .cleaners import (
     clean,
