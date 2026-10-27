@@ -1,4 +1,5 @@
 # datatidy
+![tests](https://github.com/kelv-commits/datatidy/actions/workflows/tests.yml/badge.svg)
 
 Quick, dependable cleaning for messy CSV and Excel data, in one line of Python or one command.
 
