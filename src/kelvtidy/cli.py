@@ -1,4 +1,4 @@
-"""Command line interface: datatidy input.csv -o cleaned.csv"""
+"""Command line interface: kelvtidy input.csv -o cleaned.csv"""
 
 from __future__ import annotations
 
@@ -17,7 +17,7 @@ def _read(path: str) -> pd.DataFrame:
 
 
 def main(argv: list[str] | None = None) -> int:
-    parser = argparse.ArgumentParser(prog="datatidy", description="Clean messy CSV/Excel files.")
+    parser = argparse.ArgumentParser(prog="kelvtidy", description="Clean messy CSV/Excel files.")
     parser.add_argument("input", help="Path to a .csv, .xlsx or .xls file")
     parser.add_argument("-o", "--output", default="cleaned.csv", help="Output CSV path")
     parser.add_argument("--dates", nargs="*", default=[], help="Date columns (cleaned names)")
