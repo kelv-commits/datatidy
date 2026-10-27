@@ -9,7 +9,7 @@ description = "Quick, dependable cleaning for messy CSV/Excel data."
 readme = "README.md"
 requires-python = ">=3.9"
 license = { text = "MIT" }
-dependencies = ["pandas>=1.5", "openpyxl>=3.1"]
+dependencies = ["pandas>=2.0", "openpyxl>=3.1"]
 keywords = ["data cleaning", "pandas", "csv", "excel", "analytics"]
 classifiers = [
     "Programming Language :: Python :: 3",
